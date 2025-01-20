@@ -1,27 +1,30 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2021-08-01
+title: Poem a Day Project
+description: 1-365
+date: 2025-01-20
 tags:
   - another tag
 layout: layouts/post.njk
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## SNOWFALL
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Unique, special and all mine
+A snowfall at five in the morning
+has few observers, let alone admirers
 
-## Section Header
+A moment to look up at the moon,
+ponder the day 
+and wonder about the not so distant future
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+The day ahead is long
+but provides the pathway out
+into the golden days when she might be here
 
-```text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+As the snow crunches below my feet
+crackling pop goes the ice
+a wind howls through the trees
 
-// Test with a line break above this line.
-console.log('Test');
-```
+Calling my soul to attention
+to be present
+in life now and in every special moment
