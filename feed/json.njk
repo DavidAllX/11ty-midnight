@@ -9,11 +9,12 @@ eleventyExcludeFromCollections: true
   "language": "{{ metadata.language }}",
   "home_page_url": "{{ metadata.url }}",
   "feed_url": "{{ metadata.jsonfeed.url }}",
-  "description": "{{ metadata.description }}",
-  "author": {
-    "name": "{{ metadata.author.name }}",
-    "url": "{{ metadata.author.url }}"
-  },
+  "authors": [
+    {
+      "name": "{{ metadata.author.name }}",
+      "url": "{{ metadata.author.url }}"
+    }
+  ],
   "items": [
     {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
@@ -22,7 +23,8 @@ eleventyExcludeFromCollections: true
       "url": "{{ absolutePostUrl }}",
       "title": "{{ post.data.title }}",
       "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
-      "date_published": "{{ post.date | rssDate }}"
+      "content_text": {% if post.templateContent %}{{ post.templateContent | strip_html | dump | safe }}{% else %}""{% endif %},
+      "date_published": "{{ post.date | dateToRfc3339 }}"
     }
     {%- if not loop.last -%}
     ,
