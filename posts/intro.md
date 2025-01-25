@@ -2,7 +2,7 @@
 title: A warm introduction
 description: Introduction blog post to my community
 date: 2025-01-25
-tags: posts
+tags: post
 layout: layouts/post.njk
 ---
 
