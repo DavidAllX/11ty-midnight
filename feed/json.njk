@@ -30,5 +30,6 @@ eleventyExcludeFromCollections: true
     ,
     {%- endif -%}
     {%- endfor %}
-  ]
+  ],
+  "updated": "{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}"
 }
