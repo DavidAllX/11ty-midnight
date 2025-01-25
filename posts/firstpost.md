@@ -2,8 +2,7 @@
 title: Poem a Day Project
 description: 1-365
 date: 2025-01-20
-tags:
-  - posts
+tags: "post"
 layout: layouts/post.njk
 ---
 
