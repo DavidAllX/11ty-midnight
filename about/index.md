@@ -1,14 +1,12 @@
 ---
 layout: layouts/post.njk
-title: 11ty Midnight Blog Starter
+title: "David All: Storyteller & Poet"
 templateClass: tmpl-post
 eleventyNavigation:
   key: About
   order: 3
 ---
 
-Minimalist dark mode starter template for 11ty with support for jsfiddle embeds and prismjs syntax highlighting.
+A man who knows a good story when he hears it.
 
-Demo [https://11ty-midnight.netlify.app](https://11ty-midnight.netlify.app)
-
-Github [https://github.com/sidswork/11ty-midnight.git](https://github.com/sidswork/11ty-midnight.git)
+Linkedin [https://www.linkedin.com/in/davidall](https://www.linkedin.com/in/davidall)
